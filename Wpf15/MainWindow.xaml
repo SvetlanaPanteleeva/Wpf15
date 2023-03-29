@@ -1,0 +1,219 @@
+﻿<Window x:Class="Wpf15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1400" Width="800">
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer x:Name="docViewer">
+            <FlowDocument>
+                <Paragraph TextAlignment="Center" Foreground="#FFF2FCA7">
+                    С УЛИЦ ГОНКОНГА ИСЧЕЗАЮТ НЕОНОВЫЕ ВЫВЕСКИ
+                </Paragraph>
+                <Section FontSize="14">
+                    <Table>
+                        <Table.Columns>
+                            <TableColumn/>
+                            <TableColumn/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph FontStyle="Normal" Foreground="#FFB3F78E" Margin="15,10,15,Auto">
+                                        В 80-х и 90-х годах прошлого века неоновые вывески были в Гонконге почти на каждой центральной улице. 
+И каждый предприниматель стремился сделать свою ещё больше и поместить ещё выше, чтобы привлечь клиентов в рестораны, 
+ночные клубы, сауны и ювелирные магазины.
+                                    </Paragraph>
+                                    <Paragraph  FontStyle="Normal" Foreground="#FF86F6B8" Margin="15,Auto,15,Auto">
+                                        Но технологии не стоят на месте. На смену приходят более экономные светодиодные или электронные табло. 
+А мастеров по созданию неоновой рекламы становится всё меньше.
+В Гонконге их осталось около пяти. Среди них — 50-летний Ву Чхикхай. 
+Он говорит, что на пике популярности неоновых вывесок ему часто приходилось ночевать на студии, чтобы выполнить все заказы.
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater Width="350" HorizontalAlignment="Right">
+                                            <BlockUIContainer>
+                                                <Border BorderBrush="#FFBAF776" BorderThickness="2">
+                                                    <Image  Source="Date/neon5.jpg"/>
+                                                </Border>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <List MarkerStyle="Disc" Foreground="#FF7BE8F7">
+                                        <ListItem>
+                                            <Paragraph  FontStyle="Italic" Margin="20">
+                                                Ву Чхикхай, мастер по 
+                                            созданию неоновых вывесок:
+                                            </Paragraph>
+                                        </ListItem>
+                                    </List>
+                                </TableCell>
+                                <TableCell >
+                                    <Paragraph TextAlignment="Justify" Foreground="#FF7BE8F7" FontStyle="Italic" Margin="15,20,15,Auto">
+                                        «Особенность неоновых вывесок в Гонконге — в том, что законов, регулирующих размер и методы установки, нет. 
+Когда наши клиенты хотели привлечь внимание прохожих, мы делали вывески шире, чтобы их не закрывало другими».
+Теперь власти региона постепенно ужесточают законы в отношении наружной рекламы. Часто вывески снимают и из-за этого.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                    <Table>
+                        <Table.Columns>
+                            <TableColumn/>
+                            <TableColumn/>
+                            <TableColumn/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater HorizontalAlignment="Right">
+                                            <BlockUIContainer>
+                                                <Border BorderBrush="#FF6A9BFD" BorderThickness="2">
+                                                    <Image  Source="Date/neon2.jpg" Height="300"/>
+                                                </Border>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater  HorizontalAlignment="Right">
+                                            <BlockUIContainer>
+                                                <Border BorderBrush="#FF6A9BFD" BorderThickness="2">
+                                                    <Image  Source="Date/neon1.jpg" Height="300"/>
+                                                </Border>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater HorizontalAlignment="Right">
+                                            <BlockUIContainer>
+                                                <Border BorderBrush="#FF6A9BFD" BorderThickness="2">
+                                                    <Image  Source="Date/neon3.jpg" Height="300"/>
+                                                </Border>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                    <Paragraph FontSize="14" FontStyle="Normal" Foreground="#FF6A9BFD" TextAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify" Width="700">                        
+                        Впрочем, группа активистов хочет неоновые вывески сохранить.      
+                        Они говорят, что это часть культурного наследия города.
+                        </TextBlock>
+                    </Paragraph>
+                    <Table FontSize="14" FontStyle="Italic">
+                        <Table.Columns>
+                            <TableColumn/>
+                            <TableColumn/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <List MarkerStyle="Disc" Foreground="#FF906DFA" >
+                                        <ListItem>
+                                            <Paragraph>
+                                                Кардин Чхань, активистка
+                                            </Paragraph>
+                                        </ListItem>
+                                    </List>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph Foreground="#FF906DFA" Margin="15,15,15,Auto">
+                                        «Неоновые вывески – это не просто что-то, излучающее свет. 
+                                    Их нужно рассматривать как искусство. 
+                                    Это уникальная особенность Гонконга».
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <List MarkerStyle="Disc" Foreground="#FFBB76FA">
+                                        <ListItem>
+                                            <Paragraph Foreground="#FFBB76FA">
+                                                Брайан Кхуок, профессор дизайна:
+                                            </Paragraph>
+                                        </ListItem>
+                                    </List>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph Foreground="#FFBB76FA" Margin="15,15,15,Auto">
+                                        «Как видите, у многих зданий нет никаких особенностей. 
+Но если добавить много неоновых вывесок, то они становятся чем-то вроде одежды для человека. 
+У каждого района своя одежда, то есть каждый – особенный».
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </Section>
+                <Paragraph FontSize="14" FontStyle="Normal" Foreground="#FFD969F3" TextAlignment="Center">
+                    <TextBlock TextWrapping="Wrap" Width="700" TextAlignment="Justify"> 
+                    Активисты говорят, что уже составляют каталог оставшихся неоновых вывесок. 
+А потом будут придумывать креативные способы, чтобы сохранить уникальные огни своего города для будущего.
+                    </TextBlock>
+                </Paragraph>
+                <Table FontSize="14" Foreground="Magenta">
+                        <Table.Columns>
+                            <TableColumn/>
+                            <TableColumn/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater Width="350">
+                                            <BlockUIContainer>
+                                                <Border BorderBrush="Magenta" BorderThickness="2">
+                                                    <Image Source="Date/neon6.jpg"/>
+                                                </Border>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <TextBlock TextWrapping="Wrap" Width="277" Margin="10,17,10,10">
+                                    Короткая ссылка на эту страницу:
+                                    <Hyperlink NavigateUri="https://ntdtv.ru/?p=63388">мировые новости "общество"</Hyperlink>
+                                        </TextBlock>
+                                    </Paragraph>
+                                    <BlockUIContainer Margin="0,30,0,0">
+                                        <StackPanel>
+                                            <TextBlock Margin="10" TextAlignment="Left" Text="Жми, если согласен с сохранением вывесок"/>
+                                            <Button Background="Black" Width="60" Height="54" BorderBrush="#FF9E19B0">
+                                                <Image Source="Date\images.jpg"/>
+                                            </Button>
+                                        </StackPanel>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Открыть" Width="150" Background="#FFC80A77" Click="Button_Click_2"/>
+            <Button Content="Сохранить" Width="150" Background="#FFC80A77" Click="Button_Click_1" />
+            <Button Content="Очистить" Width="150" Background="#FFC80A77" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
